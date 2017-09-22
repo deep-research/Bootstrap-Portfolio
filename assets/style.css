@@ -1,0 +1,49 @@
+.card img:hover { 
+	opacity: 0.75; 
+}
+
+body {
+	background-image: url("../images/ricepaper.png");
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.hr-thick {
+	border: none;
+	height: 2px;
+	color: gainsboro;
+	background-color: gainsboro;
+}
+
+.navbar:hover .navbar-brand:hover {
+	color: lightgrey;
+}
+
+.navbar:hover .nav-link:hover {
+	color: lightgrey;
+}
+
+#gallery .thumbnail:hover {
+	opacity: .75;
+}
+
+.gallery-unit {
+	position: relative;
+}
+
+.gallery-label {
+	position: absolute;
+	bottom: 0;
+	bottom: 35px;
+	width: 100%;
+	color: #ffffff;
+	font-size: 20px;
+	background-color: #4aaaa5;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
